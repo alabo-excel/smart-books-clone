@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+main {
+  margin-left: 70px !important;
+  margin-right: 70px !important;
+}
+header {
+  padding: 20px;
+  background: #62ab00;
+  display: flex;
+  color: white;
+  text-align: center;
+}
+header button {
+  border-color: white;
+  background-color: #62ab00;
+}
+header span {
+  padding: 10px;
+  padding-left: 60px;
+}
+header div span {
+  padding: 10px;
+}
+#card {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+}
+#card img {
+  width: 120px;
+}
+#card p {
+  width: 230px;
+  text-transform: capitalize;
+}
+#first {
+  margin-top: 40px;
+}
+.card {
+  display: flex;
+  padding: 15px;
+  flex-direction: row;
+  text-transform: capitalize;
+  justify-items: space-evenly;
+  margin-bottom: 50px;
+}
+svg {
+  margin-right: 5px;
+  color: #62ab00;
+}
+#second {
+  justify-content: space-evenly;
+}
+#bordered {
+  width: 100%;
+  margin: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-transform: capitalize;
+  padding: 50px;
+  text-align: center;
+}
+#bordered img {
+  margin-left: -60px;
+  width: 200%;
+  margin-bottom: 10px;
+}
+#bordered p {
+  width: 100%;
+}
+#container {
+  margin-left: 0px !important;
+  background: #f0eff5;
+  padding-top: 70px;
+}
+#content {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  margin-left: 80px;
+}
+#items {
+  display: flex;
+  padding: 10px;
+  align-content: center;
+  justify-content: center;
+  border: 1px #ccc solid;
+}
+#bestselling {
+  background-color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#bestselling img {
+  width: 150px;
+}
+
+#bestselling h2 {
+  text-align: center;
+  padding: 30px;
+}
